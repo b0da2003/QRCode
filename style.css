@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 body{
+  display:grid;
+  place-items:center;
+  height:100dvh;
   background-color:hsl(212, 45%, 89%) ;
   font-size: 15px;
   font-family: 'Outfit', sans-serif;
@@ -14,7 +17,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 5rem auto ;
+  
   padding: 20px;
   background-color: white;
   border-radius: 20px;
